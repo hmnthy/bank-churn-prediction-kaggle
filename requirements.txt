@@ -1,0 +1,24 @@
+# Original environment: Google Colab, Python 3.10 (December 2024).
+# Pinned versions are taken from the notebook's pip outputs; not tested outside Colab.
+
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.2
+scikit-learn==1.3.0
+xgboost==2.1.3
+lightgbm==4.5.0
+catboost==1.2.7
+category_encoders==2.6.4
+imbalanced-learn==0.12.4
+optuna==4.1.0
+hyperopt==0.2.7
+shap==0.46.0
+matplotlib==3.8.0
+seaborn==0.13.2
+statsmodels==0.14.4
+missingno==0.5.2
+yellowbrick==1.5
+ydata-profiling==4.12.1
+openpyxl==3.1.5
+# The notebook patches LazyPredict after install (sparse -> sparse_output, Colab path).
+lazypredict @ git+https://github.com/shankarpandala/lazypredict.git@81c27db709ec5a339d8e2467dbb8a4a8652d3967
